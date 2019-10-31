@@ -2,9 +2,9 @@ from watchdog.events import PatternMatchingEventHandler
 from watchdog.observers import Observer
 import os,time,zipfile,json
 
-path = ""
-log_path = ""
-zip_path = ""
+path = "PATH/scratch"
+log_path = "PATH/log"
+zip_path = "PATH/zip/"
 
 target_file = "*.sb3"
 
